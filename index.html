@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eleanor is a front-end engineer based in London,UK">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,20 +18,33 @@
     <script src="https://kit.fontawesome.com/38772d4d0e.js" crossorigin="anonymous"></script>
                 
     
-    <title>Eleanor Ruse - Portfolio</title>
+    <title>Front-end developer - Eleanor Ruse </title>
 </head>
 <body>
     <div class="container">
     <nav class="d-flex justify-content-between">
-    <a href="/">
-        <img src="images/logo.png" alt="" class="logo d-none d-md-block">
-        <img src="images/self-photo.png" alt="" class="logo d-block d-md-none">
+    <a href="/" title="Homepage">
+        <img 
+        src="images/logo.png" 
+        class="logo d-none d-md-block"
+        alt="Eleanor Ruse"
+        />
+        <img 
+        src="images/self-photo.png" 
+        class="logo d-block d-md-none"
+        alt="Eleanor Ruse"
+        />
        </a>
         <ul>
-            <li class="active"><a href="/index.html">Home</a></li>
-            <li><a href="/about.html">About</a></li>
-            <li><a href="/work.html">Work</a></li>
-            <li><a href="/contact.html">Contact</a></li>
+            <li class="active">
+            <a href="/index.html" title="Homepage">
+                Home</a></li>
+            <li><a href="/about.html" title="About Eleanor">
+                About</a></li>
+            <li><a href="/work.html" title="Eleanors work">
+                Work</a></li>
+            <li><a href="/contact.html" title="contact me">
+                Contact</a></li>
         </ul>
     </nav>
 </div>
@@ -39,7 +53,7 @@
         <h1> Eleanor Ruse </h1>
         <h2 class="mb-3"> Front-end developer based in London, UK  </h2>
         <div>
-        <a href="#" class="btn btn-branding">Contact Me 📬</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact Me">Contact Me 📬</a>
     </div>
     </div>
     <p class="text-center m-5">Featured Project which my best projects be choice to show</p>
@@ -50,26 +64,26 @@
         </div>
         <div class="col mb-5"> 
             <div class="project-description">
-                <h2 class="mb-5">Weather App Built with ReactJS</h2>
+                <h2 class="mb-5">Weather App</h2>
                 <p class="mb-5 text-muted" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos nam ratione veniam quibusdam
                 porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat explicabo eum dolore.</p>
-                <a href="" class="btn btn-branding-outline">View Project</a>
+                <a href="/work.html" class="btn btn-branding-outline">View Project</a>
     </div>
-            </div>
+ </div>
 
 </div>
 <div class="row row mb-5">
     <div class="col mb-5">
         <div class="project-description">
-            <h2 class="mb-5">Weather Project built with Vanilla JS</h2>
+            <h2 class="mb-5">All Four Paws</h2>
             <p class="mb-5 text-muted">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos nam ratione veniam quibusdam
             porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat explicabo eum dolore.</p>
-            <a href="" class="btn btn-branding-outline">View Project</a>
+            <a href="/work.html" class="btn btn-branding-outline">View Project</a>
         </div>
         </div>
     <div class="col d-none d-lg-block">
-        <img src="images/weather-vanilla.png" class="img-fluid" alt="weather">
+        <img src="images/dog-walk-react.png" class="img-fluid" alt="dog walking company">
     </div>
 
 </div>
@@ -82,37 +96,54 @@
             <h2 class="mb-5">Dictionary App</h2>
             <p class="mb-5 text-muted"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quia, dignissimos nam ratione veniam quibusdam
             porro omnis quam vel eos eveniet alias temporibus deserunt veritatis minima fugiat explicabo eum dolore.</p>
-            <a href="" class="btn btn-branding-outline">View Project</a>
+            <a href="/work.html" class="btn btn-branding-outline">View Project</a>
         </div>
     </div>
 </div>
-<footer> 
-    <div class="contact-box d-flex justify justify-content-between 
+<footer class="container"> 
+    <div class="contact-box 
+    d-flex justify 
+    justify-content-between 
     mb-5 d-none d-md-flex">
     <div>
-        <h4>
+        <h3>
         Work Enquiry
-    </h4>
+    </h3>
     <p class="text-muted">Lets work together </p>
      </div>
      <div>
-    <a href="" class="btn btn-branding mt-3">
+    <a href="/contact.html" 
+    class="btn btn-branding mt-3" 
+    title="Contact Eleanor">
      Contact Me   
     </a>
     </div>
 </div>
 <div class="d-flex justify-content-center">
- <a href="mailto:eleanor.ruse@hotmail.co.uk" class="email-link">
+ <a href="mailto:eleanor.ruse@hotmail.co.uk" 
+ class="email-link"
+ title="Email Eleanor">
     eleanor.ruse@hotmail.co.uk
       </a>
     </div>
       <div class="social-links d-flex 
       justify-content-center">
-       <a href="https://www.instagram.com/codewithele/" target="_blank"><i class="fab fa-instagram"></i></a>
-       <a href="https://github.com/EleanorRuse" target="_blank"><i class="fab fa-github"></i></a>
-       <a href="https://www.linkedin.com/in/eleanor-ruse-8aa6a011b/" target="_blank"><i class="fab fa-linkedin"></i></a> 
+       <a href="https://www.instagram.com/codewithele/" 
+       target="_blank"
+       title="Instagram Link"><i 
+       class="fab fa-instagram"></i></a>
+       <a href="https://github.com/EleanorRuse" 
+       target="_blank"
+       title="Github Link"><i 
+       class="fab fa-github"></i></a>
+       <a href="https://www.linkedin.com/in/eleanor-ruse-8aa6a011b/" 
+       target="_blank"
+       title="LinkedIn Link"><i 
+       class="fab fa-linkedin"></i></a> 
     </div>
-
+<p class="text-center mt-4">
+    👉 This project was coded by Eleanor Ruse, and it is 
+    <a href="" target="_blank">open-sourced</a></p>
 </footer>
 </div>
 </body>
