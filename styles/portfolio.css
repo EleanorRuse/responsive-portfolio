@@ -40,6 +40,8 @@ p {
   line-height: 30px;
 }
 
+
+
 .logo {
   max-height: 40px;
 }
@@ -91,9 +93,19 @@ nav li.active a {
   line-height: 1.5;
 }
 
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+} 
+
+.certificates img {
+  width: auto; 
+  height:auto; 
+}
+
 .skill-section i {
     color:var(--branding-color);
-    margin: 10px 50px 20px;
+     margin: 10px 49px 20px;
 }
 
 .skill-tag-api {
