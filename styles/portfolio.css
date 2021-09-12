@@ -96,6 +96,14 @@ nav li.active a {
     margin: 10px 50px 20px;
 }
 
+.skill-tag-api {
+    font-family: var(--default-font-family);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+}
+
 .skill-tag {
     font-family: var(--default-font-family);
     font-weight: bold;
@@ -103,6 +111,14 @@ nav li.active a {
     line-height: 30px;
     text-align: center;
     
+}
+
+.certificates{
+    font-family: var(--default-font-family);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
 }
 
 .project-container
@@ -145,6 +161,10 @@ margin:100px;
   padding: 0;
 }
 
+.content i {
+  font-size:29px;
+}
+
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -184,6 +204,14 @@ margin:100px;
 .project-description {
   padding: 0;
   text-align: center;
+}
+
+.card {
+    padding: 31px;
+    margin-bottom: 30%;
+    display: block;
+    text-align: center;
+    height: auto;
 }
 
 footer {
