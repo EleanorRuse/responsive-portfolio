@@ -48,8 +48,6 @@ p {
   line-height: 30px;
 }
 
-
-
 .logo {
   max-height: 40px;
 }
@@ -145,14 +143,6 @@ nav li.active a {
 
 .skill-tag-api {
     margin-right: 30px;
-}
-
-.node {
-    margin-left: 60px;
-}
-
-.node-about { 
-  margin-left:30px;
 }
 
 .certificates{
