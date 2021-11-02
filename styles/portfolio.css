@@ -86,7 +86,7 @@ nav li.active a {
 }
 
 .hero-section {
-  background-image: url(/images/banner\ .png);
+  background-image: url("https://images.unsplash.com/photo-1590157678696-a5151f512cbe?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=871&q=80");
   background-size: cover;
   text-align: center;
   padding: 47px 0;
